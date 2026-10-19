@@ -294,15 +294,15 @@ with st.sidebar:
     st.caption("Educational prototype · Not medical advice")
 
 # Run actual agent workflow on submit, with callback-driven live execution in the page area.
+# Save the submitted profile and schedule the workflow to run
+# after the hero, navigation, and scope note have been rendered.
 if submitted:
-    new_profile = profile_from_form(skin_type, concern, budget, pref, allergies, current_text)
+    new_profile = profile_from_form(
+        skin_type, concern, budget, pref, allergies, current_text
+    )
     st.session_state["skinsage_profile"] = new_profile
     st.session_state.pop("skinsage_whatif", None)
-    with st.spinner("Executing the multi-agent workflow..."):
-        live_slot = st.empty()
-        new_result = run_with_live_ui(new_profile, live_slot, st.session_state.get("skinsage_show_technical", False))
-    st.session_state["skinsage_result"] = new_result
-    st.session_state["skinsage_last_run"] = new_profile.copy()
+    st.session_state["skinsage_run_pending"] = True
 
 result = st.session_state.get("skinsage_result")
 profile = st.session_state.get("skinsage_profile")
@@ -317,6 +317,25 @@ if st.session_state.get("skinsage_page") == "Agent Control Centre":
 selected_page = st.radio("Navigation", pages, horizontal=True, label_visibility="collapsed", key="skinsage_page")
 technical_on = bool(st.session_state.get("skinsage_show_technical", False))
 st.markdown("<div class='panel' style='background:#fffdf8;border-color:#eee6d8'><div class='panel-title'>A note on scope</div><div class='panel-copy'>SkinSage is an educational prototype, not medical advice. Product names and prices are synthetic. It does not diagnose skin conditions. High-risk concerns trigger a referral gate, and configured ingredient-pair warnings are conservative demo rules rather than universal contraindications.</div></div>", unsafe_allow_html=True)
+
+# Execute the workflow below the hero and navigation
+if st.session_state.pop("skinsage_run_pending", False):
+    new_profile = st.session_state["skinsage_profile"]
+
+    with st.spinner("Executing the multi-agent workflow..."):
+        live_slot = st.empty()
+        new_result = run_with_live_ui(
+            new_profile,
+            live_slot,
+            st.session_state.get("skinsage_show_technical", False),
+        )
+
+    st.session_state["skinsage_result"] = new_result
+    st.session_state["skinsage_last_run"] = new_profile.copy()
+
+# Refresh values after the workflow finishes
+result = st.session_state.get("skinsage_result")
+profile = st.session_state.get("skinsage_profile")
 
 # ---------------- Pages ----------------
 if selected_page == "Home":
