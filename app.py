@@ -39,9 +39,13 @@ div[data-testid="stAlert"]{border-radius:13px}.stTabs [data-baseweb="tab-list"]{
 .agent-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px 15px;margin:8px 0}.agent-row{display:flex;justify-content:space-between;gap:12px;align-items:center}.badge{display:inline-block;border-radius:999px;padding:4px 8px;font-size:.7rem;font-weight:800;background:#edf1ed;color:#5d6e63}.badge.done{background:#e4f3e7;color:#286342}.badge.warn{background:#fff0d9;color:#885c13}.badge.block{background:#fbe8e6;color:#9c3730}.footer{text-align:center;color:#829087;font-size:.76rem;padding-top:25px}
 [data-testid="stRadio"] label{font-weight:600}
 @media(max-width:800px){.hero{padding:23px}.hero-title{font-size:2.2rem}.block-container{padding-left:1rem;padding-right:1rem}}
-/* Keep SkinSage content clear of the Streamlit Cloud toolbar */
+/* Keep all SkinSage content below the Streamlit Cloud toolbar */
+[data-testid="stAppViewContainer"] .main {
+    padding-top: 3rem !important;
+}
+
 [data-testid="stAppViewBlockContainer"] {
-    padding-top: 2.5rem !important;
+    padding-top: 1rem !important;
 }
 
 /* Add breathing room above the homepage hero */
