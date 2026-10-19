@@ -1,0 +1,65 @@
+[
+  {
+    "query": "basic skincare routine cleanser moisturizer sunscreen",
+    "expected_ids": [
+      "KB-01"
+    ]
+  },
+  {
+    "query": "oily skin acne gentle cleanser",
+    "expected_ids": [
+      "KB-02"
+    ]
+  },
+  {
+    "query": "dry skin hydration moisturizer",
+    "expected_ids": [
+      "KB-03"
+    ]
+  },
+  {
+    "query": "sensitive skin irritation introduce products slowly",
+    "expected_ids": [
+      "KB-04",
+      "KB-14"
+    ]
+  },
+  {
+    "query": "niacinamide serum uneven tone",
+    "expected_ids": [
+      "KB-05"
+    ]
+  },
+  {
+    "query": "hyaluronic acid hydration dryness",
+    "expected_ids": [
+      "KB-06"
+    ]
+  },
+  {
+    "query": "retinol irritation pregnancy advice",
+    "expected_ids": [
+      "KB-07"
+    ]
+  },
+  {
+    "query": "salicylic acid clogged pores acne",
+    "expected_ids": [
+      "KB-08"
+    ]
+  },
+  {
+    "query": "pigmentation uneven tone sunscreen",
+    "expected_ids": [
+      "KB-17",
+      "KB-13"
+    ]
+  },
+  {
+    "query": "painful scarring acne persistent rash dermatologist",
+    "expected_ids": [
+      "KB-18",
+      "KB-20"
+    ]
+  }
+]

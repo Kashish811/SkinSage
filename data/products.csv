@@ -1,0 +1,25 @@
+product_id,name,category,price_inr,key_ingredients,suitable_skin_types,targets_concern,source_ids
+P001,Cloud Wash Gentle Cleanser,Cleanser,250,glycerin;ceramides,oily;combination;normal,acne;dullness,KB-01;KB-02
+P002,Soft Foam Cleanser,Cleanser,220,glycerin;niacinamide,combination;normal;oily,pigmentation;dullness,KB-01;KB-05
+P003,Creamy Hydration Cleanser,Cleanser,280,glycerin;hyaluronic acid,dry;normal;sensitive,dryness;sensitivity,KB-03;KB-06
+P004,Calm Skin Cleanser,Cleanser,300,glycerin;ceramides,sensitive;dry;normal,sensitivity;dryness,KB-04;KB-12
+P005,Daily Gentle Cleanser,Cleanser,180,glycerin,oily;dry;combination;normal;sensitive,acne;dryness;dullness,KB-01;KB-04
+P006,Balanced Gel Cleanser,Cleanser,240,glycerin;panthenol,oily;combination;normal,acne;dullness,KB-02;KB-12
+P007,Hydration Support Serum,Serum,350,hyaluronic acid,dry;sensitive;normal;combination,dryness;dehydration,KB-06;KB-12
+P008,Barrier Balance Serum,Serum,420,niacinamide;panthenol,oily;dry;combination;normal;sensitive,acne;pigmentation;dullness;dryness,KB-05;KB-12
+P009,Clear Pores Serum,Serum,390,salicylic acid,oily;combination;normal,acne;pores,KB-08;KB-18
+P010,Bright Tone Serum,Serum,450,vitamin c,oily;dry;combination;normal,pigmentation;dullness,KB-10;KB-17
+P011,Night Renewal Serum,Serum,480,retinol,oily;dry;combination;normal,acne;texture;dullness,KB-07;KB-15
+P012,Smooth Glow Serum,Serum,410,glycolic acid,oily;dry;combination;normal,pigmentation;texture;dullness,KB-09;KB-17
+P013,Blemish Control Serum,Serum,360,benzoyl peroxide,oily;combination;normal,acne,KB-11;KB-18
+P014,Calm Hydration Serum,Serum,330,panthenol;hyaluronic acid,sensitive;dry;normal;combination,dryness;sensitivity,KB-04;KB-06
+P015,Light Gel Moisturizer,Moisturizer,300,glycerin;niacinamide,oily;combination;normal,acne;dullness,KB-02;KB-12
+P016,Rich Comfort Cream,Moisturizer,350,ceramides;glycerin,dry;sensitive;normal,dryness;sensitivity,KB-03;KB-12
+P017,Daily Barrier Lotion,Moisturizer,320,ceramides;panthenol,oily;dry;combination;normal;sensitive,dryness;sensitivity;acne,KB-04;KB-12
+P018,Hydra Balance Moisturizer,Moisturizer,280,hyaluronic acid;glycerin,oily;combination;normal,dryness;dullness,KB-06;KB-12
+P019,Calm Barrier Cream,Moisturizer,390,ceramides;glycerin,dry;sensitive;normal,dryness;sensitivity,KB-03;KB-12
+P020,Everyday Moisture Gel,Moisturizer,250,glycerin,oily;combination;normal;sensitive,dryness;acne,KB-01;KB-12
+P021,Daily Shield SPF 50,Sunscreen,420,broad spectrum SPF 50,oily;dry;combination;normal;sensitive,all,KB-13
+P022,Lightweight SPF 30,Sunscreen,350,broad spectrum SPF 30,oily;combination;normal,all,KB-13;KB-01
+P023,Comfort SPF 50,Sunscreen,480,broad spectrum SPF 50,dry;sensitive;normal,all,KB-13;KB-04
+P024,Everyday SPF 30,Sunscreen,300,broad spectrum SPF 30,oily;dry;combination;normal;sensitive,all,KB-13

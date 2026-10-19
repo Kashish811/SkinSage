@@ -1,0 +1,74 @@
+[
+  {
+    "profile_id": "DEMO-01",
+    "description": "Existing salicylic-acid treatment; retinol candidate should be rejected and replaced.",
+    "skin_type": "oily",
+    "concern": "acne",
+    "budget_inr": 1500,
+    "allergies": [],
+    "current_products": [
+      {
+        "name": "Existing exfoliating treatment",
+        "ingredients": [
+          "salicylic acid"
+        ]
+      }
+    ],
+    "initial_candidate_ids": [
+      "P001",
+      "P011",
+      "P018",
+      "P024"
+    ],
+    "expected_rejected_product": "P011",
+    "replacement_product": "P008"
+  },
+  {
+    "profile_id": "DEMO-02",
+    "description": "Existing glycolic-acid treatment; duplicate glycolic candidate should be rejected and replaced.",
+    "skin_type": "combination",
+    "concern": "pigmentation",
+    "budget_inr": 1600,
+    "allergies": [],
+    "current_products": [
+      {
+        "name": "Existing exfoliating treatment",
+        "ingredients": [
+          "glycolic acid"
+        ]
+      }
+    ],
+    "initial_candidate_ids": [
+      "P002",
+      "P012",
+      "P018",
+      "P024"
+    ],
+    "expected_rejected_product": "P012",
+    "replacement_product": "P008"
+  },
+  {
+    "profile_id": "DEMO-03",
+    "description": "Existing benzoyl-peroxide treatment; duplicate benzoyl-peroxide candidate should be rejected and replaced.",
+    "skin_type": "sensitive",
+    "concern": "acne",
+    "budget_inr": 1500,
+    "allergies": [],
+    "current_products": [
+      {
+        "name": "Existing acne treatment",
+        "ingredients": [
+          "benzoyl peroxide"
+        ]
+      }
+    ],
+    "initial_candidate_ids": [
+      "P004",
+      "P013",
+      "P019",
+      "P023"
+    ],
+    "expected_rejected_product": "P013",
+    "replacement_product": "P014"
+  }
+]

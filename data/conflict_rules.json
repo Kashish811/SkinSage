@@ -1,0 +1,74 @@
+[
+  {
+    "rule_id": "CR-01",
+    "ingredient_a": "retinol",
+    "ingredient_b": "glycolic acid",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags combining retinol with an AHA exfoliant in the same starter plan because irritation may increase for some users."
+  },
+  {
+    "rule_id": "CR-02",
+    "ingredient_a": "retinol",
+    "ingredient_b": "salicylic acid",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags combining retinol with a BHA exfoliant in the same starter plan because irritation may increase for some users."
+  },
+  {
+    "rule_id": "CR-03",
+    "ingredient_a": "retinol",
+    "ingredient_b": "benzoyl peroxide",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags this combination for review rather than treating it as a universal contraindication."
+  },
+  {
+    "rule_id": "CR-04",
+    "ingredient_a": "glycolic acid",
+    "ingredient_b": "salicylic acid",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags combining two exfoliating actives in one starter plan."
+  },
+  {
+    "rule_id": "CR-05",
+    "ingredient_a": "glycolic acid",
+    "ingredient_b": "benzoyl peroxide",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags this combination because irritation may increase for some users."
+  },
+  {
+    "rule_id": "CR-06",
+    "ingredient_a": "salicylic acid",
+    "ingredient_b": "benzoyl peroxide",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags this combination because irritation may increase for some users."
+  },
+  {
+    "rule_id": "CR-07",
+    "ingredient_a": "vitamin c",
+    "ingredient_b": "glycolic acid",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags vitamin C with a strong AHA exfoliant for review; actual compatibility depends on formulation and use."
+  },
+  {
+    "rule_id": "CR-08",
+    "ingredient_a": "vitamin c",
+    "ingredient_b": "salicylic acid",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags vitamin C with a BHA exfoliant for review; actual compatibility depends on formulation and use."
+  },
+  {
+    "rule_id": "CR-09",
+    "ingredient_a": "vitamin c",
+    "ingredient_b": "benzoyl peroxide",
+    "severity": "caution",
+    "policy": "conservative_demo",
+    "description": "The demo flags vitamin C with benzoyl peroxide for review; formulations and usage matter."
+  }
+]

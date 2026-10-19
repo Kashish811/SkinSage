@@ -1,0 +1,265 @@
+[
+  {
+    "id": "KB-01",
+    "topic": "Basic skincare routine",
+    "text": "A simple routine often includes gentle cleansing, moisturizing, and daytime sun protection. Keep routines simple and adjust gradually.",
+    "tags": [
+      "routine",
+      "basic",
+      "cleanser",
+      "moisturizer",
+      "sunscreen"
+    ],
+    "source_name": "American Academy of Dermatology — Skin care basics",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-02",
+    "topic": "Oily skin",
+    "text": "For oily skin, consider gentle cleansing and lightweight, non-comedogenic moisturizers. Avoid harsh scrubbing because irritation can worsen discomfort.",
+    "tags": [
+      "oily",
+      "cleanser",
+      "moisturizer",
+      "acne"
+    ],
+    "source_name": "American Academy of Dermatology — Acne skin care tips",
+    "source_url": "https://www.aad.org/public/diseases/acne/skin-care/tips"
+  },
+  {
+    "id": "KB-03",
+    "topic": "Dry skin",
+    "text": "Dry skin may benefit from a gentle cleanser and a moisturizer that helps reduce water loss. Stop products that sting or worsen irritation.",
+    "tags": [
+      "dry",
+      "moisturizer",
+      "hydration",
+      "cleanser"
+    ],
+    "source_name": "American Academy of Dermatology — Dry skin care",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry"
+  },
+  {
+    "id": "KB-04",
+    "topic": "Sensitive skin",
+    "text": "Sensitive skin can react to products. Introduce one new product at a time and stop using a product that causes persistent burning, swelling, or a rash.",
+    "tags": [
+      "sensitive",
+      "irritation",
+      "patch test"
+    ],
+    "source_name": "American Academy of Dermatology — Skin care basics",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-05",
+    "topic": "Niacinamide",
+    "text": "Niacinamide is used in some skincare products for skin-barrier support and the appearance of uneven tone. Individual tolerance varies.",
+    "tags": [
+      "niacinamide",
+      "serum",
+      "dullness",
+      "pigmentation"
+    ],
+    "source_name": "Educational ingredient note",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-06",
+    "topic": "Hyaluronic acid",
+    "text": "Hyaluronic acid is a humectant used in skincare to help attract and retain water. It is commonly included in hydrating products.",
+    "tags": [
+      "hyaluronic acid",
+      "hydration",
+      "serum",
+      "dryness"
+    ],
+    "source_name": "Educational ingredient note",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-07",
+    "topic": "Retinoids",
+    "text": "Retinoid products can irritate skin, especially when first introduced. Seek clinician advice before use during pregnancy or when trying to conceive; do not start them in that situation without medical guidance.",
+    "tags": [
+      "retinol",
+      "retinoid",
+      "acne",
+      "texture",
+      "pregnancy"
+    ],
+    "source_name": "American Academy of Dermatology — Acne treatment",
+    "source_url": "https://www.aad.org/public/diseases/acne/derm-treat/treat"
+  },
+  {
+    "id": "KB-08",
+    "topic": "Salicylic acid",
+    "text": "Salicylic acid is used in some products for clogged pores and acne-prone skin. It may cause dryness or irritation; follow product directions and introduce cautiously.",
+    "tags": [
+      "salicylic acid",
+      "acne",
+      "pores",
+      "serum"
+    ],
+    "source_name": "American Academy of Dermatology — Acne skin care tips",
+    "source_url": "https://www.aad.org/public/diseases/acne/skin-care/tips"
+  },
+  {
+    "id": "KB-09",
+    "topic": "Alpha hydroxy acids",
+    "text": "Alpha hydroxy acids such as glycolic acid exfoliate the skin and can cause irritation. Avoid introducing several exfoliating or irritating products at the same time.",
+    "tags": [
+      "glycolic acid",
+      "AHA",
+      "exfoliation",
+      "pigmentation"
+    ],
+    "source_name": "Educational ingredient note",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-10",
+    "topic": "Vitamin C",
+    "text": "Vitamin C appears in some skincare products targeting uneven tone and dullness. Formulations differ, and irritation or sensitivity can occur.",
+    "tags": [
+      "vitamin c",
+      "dullness",
+      "pigmentation",
+      "serum"
+    ],
+    "source_name": "Educational ingredient note",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-11",
+    "topic": "Benzoyl peroxide",
+    "text": "Benzoyl peroxide is an acne treatment ingredient that may cause dryness or irritation and can bleach fabrics. Follow product instructions and seek professional advice if symptoms are severe.",
+    "tags": [
+      "benzoyl peroxide",
+      "acne",
+      "serum",
+      "irritation"
+    ],
+    "source_name": "NHS — Acne",
+    "source_url": "https://www.nhs.uk/conditions/acne/"
+  },
+  {
+    "id": "KB-12",
+    "topic": "Moisturizer and skin barrier",
+    "text": "Moisturizer can help reduce dryness and support skin comfort. A simple fragrance-free option may be worth considering for easily irritated skin.",
+    "tags": [
+      "moisturizer",
+      "barrier",
+      "dryness",
+      "sensitive"
+    ],
+    "source_name": "American Academy of Dermatology — Skin care basics",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-13",
+    "topic": "Sunscreen",
+    "text": "Use broad-spectrum sunscreen with SPF 30 or higher for daytime protection. Reapply according to the product label, especially outdoors.",
+    "tags": [
+      "sunscreen",
+      "SPF",
+      "sun protection",
+      "daytime"
+    ],
+    "source_name": "American Academy of Dermatology — Sunscreen",
+    "source_url": "https://www.aad.org/media/stats-sunscreen"
+  },
+  {
+    "id": "KB-14",
+    "topic": "Introducing products",
+    "text": "Introduce one new skincare product at a time and observe how your skin responds. Follow label directions and discontinue use if a reaction develops.",
+    "tags": [
+      "patch test",
+      "new product",
+      "sensitive",
+      "routine"
+    ],
+    "source_name": "American Academy of Dermatology — Skin care basics",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-15",
+    "topic": "Combining active ingredients",
+    "text": "Using multiple exfoliating or potentially irritating active ingredients together may increase irritation for some people. This demo uses conservative rules to flag selected combinations; these flags are not universal medical contraindications.",
+    "tags": [
+      "retinol",
+      "glycolic acid",
+      "salicylic acid",
+      "benzoyl peroxide",
+      "conflict",
+      "combination"
+    ],
+    "source_name": "SkinSage project safety policy",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-16",
+    "topic": "Allergies",
+    "text": "Do not knowingly use a product containing an ingredient you are allergic to. Ingredient lists and formulations can change, so check the product label before use.",
+    "tags": [
+      "allergy",
+      "avoid ingredients",
+      "ingredients"
+    ],
+    "source_name": "SkinSage project safety policy",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-17",
+    "topic": "Uneven tone and pigmentation",
+    "text": "Uneven skin tone can have different causes. Sun protection is a useful general step; persistent or changing pigmentation concerns should be discussed with a qualified clinician.",
+    "tags": [
+      "pigmentation",
+      "uneven tone",
+      "dullness",
+      "sunscreen"
+    ],
+    "source_name": "American Academy of Dermatology — Skin care basics",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics"
+  },
+  {
+    "id": "KB-18",
+    "topic": "Acne severity",
+    "text": "Painful, deep, scarring, or persistent acne may need professional assessment. Cosmetic routines are not a substitute for diagnosis or treatment.",
+    "tags": [
+      "acne",
+      "painful acne",
+      "scarring",
+      "dermatologist"
+    ],
+    "source_name": "NHS — Acne",
+    "source_url": "https://www.nhs.uk/conditions/acne/"
+  },
+  {
+    "id": "KB-19",
+    "topic": "Budget planning",
+    "text": "A practical routine can prioritize a few basics rather than buying many products. Compare ingredient lists, follow labels, and stay within the stated budget.",
+    "tags": [
+      "budget",
+      "price",
+      "routine",
+      "products"
+    ],
+    "source_name": "SkinSage project planning policy",
+    "source_url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-on-a-budget"
+  },
+  {
+    "id": "KB-20",
+    "topic": "When to seek care",
+    "text": "Seek professional care for severe or rapidly worsening symptoms, significant swelling, painful or scarring acne, persistent rash, or signs of an allergic reaction. Seek urgent care for breathing difficulty or swelling of the lips or tongue.",
+    "tags": [
+      "dermatologist",
+      "severe irritation",
+      "rash",
+      "swelling",
+      "urgent"
+    ],
+    "source_name": "NHS — Acne and general safety guidance",
+    "source_url": "https://www.nhs.uk/conditions/acne/"
+  }
+]
